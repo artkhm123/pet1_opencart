@@ -1,0 +1,13 @@
+INFO     test_main_page_elements:conftest.py:54 ===> Test test_main_page_elements started at 2023-04-01 20:38:09.507023
+INFO     test_main_page_elements:conftest.py:95 Browser:<function browser at 0x000001E9974975B0>
+INFO     MainPage:BasePage.py:26 Opening url: http://192.168.31.28:8081
+INFO     MainPage:BasePage.py:28 Opening url: http://192.168.31.28:8081
+INFO     MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+INFO     MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+INFO     MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+INFO     MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+INFO     MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+INFO     MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+INFO     MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+INFO     AlertElement:BasePage.py:97 Get text from element ('css selector', '.alert-success')
+INFO     test_main_page_elements:conftest.py:102 ===> Test test_main_page_elements finished at 2023-04-01 20:38:16.119718

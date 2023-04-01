@@ -1,0 +1,41 @@
+[32mINFO    [0m test_add_and_delete_product:conftest.py:54 ===> Test test_add_and_delete_product started at 2023-04-01 22:29:41.884232
+[32mINFO    [0m test_add_and_delete_product:conftest.py:95 Browser:<function browser at 0x0000019234632050>
+[32mINFO    [0m LoginPage:BasePage.py:26 Opening url: http://192.168.31.28:8081/admin
+[32mINFO    [0m LoginPage:BasePage.py:28 Opening url: http://192.168.31.28:8081/admin
+[32mINFO    [0m LoginPage:BasePage.py:53 Input user in field ('css selector', '#input-username')
+[32mINFO    [0m LoginPage:BasePage.py:53 Input bitnami in field ('css selector', '#input-password')
+[32mINFO    [0m LoginPage:BasePage.py:43 Click on element: ('css selector', 'button[type=submit]')
+[32mINFO    [0m HeaderElement:BasePage.py:97 Get text from element ('css selector', '#header > div > ul > li.dropdown > a')
+[32mINFO    [0m AdminMainPage:BasePage.py:43 Click on element: ('css selector', '#menu-catalog')
+[32mINFO    [0m AdminMainPage:BasePage.py:43 Click on element: ('css selector', '#menu-catalog > #collapse1 > li:nth-child(2)')
+[32mINFO    [0m AdminMainPage:BasePage.py:43 Click on element: ('css selector', "a[data-original-title='Add New']")
+[32mINFO    [0m AdminMainPage:BasePage.py:53 Input Artem Test product832 in field ('css selector', '#input-name1')
+[32mINFO    [0m AdminMainPage:BasePage.py:53 Input Test metadata5 in field ('css selector', '#input-meta-title1')
+[32mINFO    [0m AdminMainPage:BasePage.py:43 Click on element: ('link text', 'Data')
+[32mINFO    [0m AdminMainPage:BasePage.py:53 Input Test model1 in field ('css selector', '#input-model')
+[32mINFO    [0m AdminMainPage:BasePage.py:53 Input 193 in field ('css selector', '#input-price')
+[32mINFO    [0m AdminMainPage:BasePage.py:53 Input 227 in field ('css selector', '#input-quantity')
+[32mINFO    [0m AdminMainPage:BasePage.py:43 Click on element: ('css selector', "button[data-original-title='Save']")
+[32mINFO    [0m AlertElement:BasePage.py:97 Get text from element ('css selector', '.alert-success')
+[32mINFO    [0m AdminMainPage:BasePage.py:53 Input Artem Test product832 in field ('css selector', '#input-name')
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[3]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[4]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[5]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[6]/span") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[3]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[4]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[5]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[6]/span") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[3]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[4]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[5]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[6]/span") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[3]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[4]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[5]") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:77 Searching for element ('xpath', "//*[@id='form-product']/div/table/tbody/tr/td[6]/span") on the page
+[32mINFO    [0m AdminMainPage:BasePage.py:53 Input Artem Test product832 in field ('css selector', '#input-name')
+[32mINFO    [0m AdminMainPage:BasePage.py:43 Click on element: ('css selector', '#form-product > div > table > tbody > tr > td:nth-child(1) > input[type=checkbox]')
+[32mINFO    [0m AdminMainPage:BasePage.py:43 Click on element: ('css selector', "button[data-original-title='Delete']")
+[32mINFO    [0m AdminMainPage:BasePage.py:66 Accept allert on the page
+[32mINFO    [0m test_add_and_delete_product:conftest.py:102 ===> Test test_add_and_delete_product finished at 2023-04-01 22:29:52.744938

@@ -1,0 +1,30 @@
+[32mINFO    [0m test_main_page_elements:conftest.py:54 ===> Test test_main_page_elements started at 2023-04-01 22:30:31.078474
+[32mINFO    [0m test_main_page_elements:conftest.py:95 Browser:<function browser at 0x0000019234632050>
+[32mINFO    [0m MainPage:BasePage.py:26 Opening url: http://192.168.31.28:8081
+[32mINFO    [0m MainPage:BasePage.py:28 Opening url: http://192.168.31.28:8081
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m AlertElement:BasePage.py:97 Get text from element ('css selector', '.alert-success')
+[32mINFO    [0m AlertElement:BasePage.py:77 Searching for element ('link text', 'product comparison') on the page
+[32mINFO    [0m ComparisonPage:BasePage.py:97 Get text from element ('css selector', '#content > table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(2)')
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m AlertElement:BasePage.py:97 Get text from element ('css selector', '.alert-success')
+[32mINFO    [0m AlertElement:BasePage.py:77 Searching for element ('link text', 'product comparison') on the page
+[32mINFO    [0m ComparisonPage:BasePage.py:97 Get text from element ('css selector', '#content > table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(3)')
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m AlertElement:BasePage.py:97 Get text from element ('css selector', '.alert-success')
+[32mINFO    [0m AlertElement:BasePage.py:77 Searching for element ('link text', 'product comparison') on the page
+[32mINFO    [0m ComparisonPage:BasePage.py:97 Get text from element ('css selector', '#content > table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(4)')
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m MainPage:BasePage.py:87 Searching for elements ('css selector', '.product-thumb.transition') on the page
+[32mINFO    [0m AlertElement:BasePage.py:97 Get text from element ('css selector', '.alert-success')
+[32mINFO    [0m AlertElement:BasePage.py:77 Searching for element ('link text', 'product comparison') on the page
+[32mINFO    [0m ComparisonPage:BasePage.py:97 Get text from element ('css selector', '#content > table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(5)')
+[32mINFO    [0m test_main_page_elements:conftest.py:102 ===> Test test_main_page_elements finished at 2023-04-01 22:30:50.030996
