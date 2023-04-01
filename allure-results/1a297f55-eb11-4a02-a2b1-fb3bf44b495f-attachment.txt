@@ -1,0 +1,14 @@
+[32mINFO    [0m test_register_page:conftest.py:54 ===> Test test_register_page started at 2023-04-01 22:31:10.221860
+[32mINFO    [0m test_register_page:conftest.py:95 Browser:<function browser at 0x0000019234632050>
+[32mINFO    [0m RegistartionPage:BasePage.py:26 Opening url: http://192.168.31.28:8081/index.php?route=account/register
+[32mINFO    [0m RegistartionPage:BasePage.py:28 Opening url: http://192.168.31.28:8081/index.php?route=account/register
+[32mINFO    [0m RegistartionPage:BasePage.py:97 Get text from element ('css selector', '#content > h1')
+[32mINFO    [0m RegistartionPage:BasePage.py:53 Input Anthony in field ('css selector', '#input-firstname')
+[32mINFO    [0m RegistartionPage:BasePage.py:53 Input Coleman in field ('css selector', '#input-lastname')
+[32mINFO    [0m RegistartionPage:BasePage.py:53 Input morgan66@example.com in field ('css selector', '#input-email')
+[32mINFO    [0m RegistartionPage:BasePage.py:53 Input +1-710-891-5196 in field ('css selector', '#input-telephone')
+[32mINFO    [0m RegistartionPage:BasePage.py:53 Input passwordAnthony in field ('css selector', '#input-password')
+[32mINFO    [0m RegistartionPage:BasePage.py:53 Input passwordAnthony in field ('css selector', '#input-confirm')
+[32mINFO    [0m RegistartionPage:BasePage.py:43 Click on element: ('css selector', 'input[value=Continue]')
+[32mINFO    [0m AlertElement:BasePage.py:97 Get text from element ('css selector', '.alert-danger')
+[32mINFO    [0m test_register_page:conftest.py:102 ===> Test test_register_page finished at 2023-04-01 22:31:19.138281
