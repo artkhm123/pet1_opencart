@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/
+/allure-results
+/tests/allure-results
+/allure-report
+/logs
+/tests/logs

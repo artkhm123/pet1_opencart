@@ -6,3 +6,8 @@ venv/
 
 .git
 .cache
+/allure-results
+/tests/allure-results
+/allure-report
+/logs
+/tests/logs
