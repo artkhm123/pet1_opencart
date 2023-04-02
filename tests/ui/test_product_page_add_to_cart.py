@@ -5,9 +5,10 @@ from PageObject.CartPage import CartPage
 from PageObject.ProductCardPage import ProductCardPage
 from PageObject.elements.AlertElement import AlertElement
 
+
 @pytest.mark.smoke
 @pytest.mark.slow
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Продуктовая страница. Добавление продукта в корзину")
 @pytest.mark.parametrize("product", ["/iphone", "/macbook"])

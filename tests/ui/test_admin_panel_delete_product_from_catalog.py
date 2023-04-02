@@ -15,7 +15,7 @@ TEST_METADATA_TAG = f"Test metadata{random.randint(0, 10)}"
 
 
 @pytest.mark.smoke
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title('Удаление продукта')
 def test_add_and_delete_product(browser):
@@ -34,9 +34,9 @@ def test_add_and_delete_product(browser):
     #TODO - проверка создания продукта через БД
     """
 
-    with allure.step('Предусловия:' +"\n"
-                     'Пользователь залогинен в админ панель' +"\n"
-                     'Тестовый продукт есть в каталоке'):
+    with allure.step('Предусловия:' + "\n"
+                                      'Пользователь залогинен в админ панель' + "\n"
+                                                                                'Тестовый продукт есть в каталоке'):
         LOGIN_PAGE = LoginPage(browser)
         LOGIN_PAGE.open_(browser.url + LOGIN_PAGE_PATH)
         LOGIN_PAGE.input_username(OPENCART_USERNAME)
@@ -62,9 +62,9 @@ def test_add_and_delete_product(browser):
     with allure.step('3) Удалить выбранный продукт'):
         ADMIN_PAGE.delete_product()
 
-    with allure.step('Убедиться, что продукт удален' +"\n"
-                     '-Success Allert ' +"\n"
-                     '-Тестового продукта нет в списке продуктов'):
+    with allure.step('Убедиться, что продукт удален' + "\n"
+                                                       '-Success Allert ' + "\n"
+                                                                            '-Тестового продукта нет в списке продуктов'):
         assert "Success: You have modified products!" in AlertElement(browser).success_alert_message_text
         ADMIN_PAGE.filter_by_product_name(TEST_PRODUCT_NAME)
         ADMIN_PAGE.filter_submit_btn()

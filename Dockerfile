@@ -19,7 +19,3 @@ COPY . .
 
 # Запуск тестов
 CMD ["pytest"]
-#так как одинекоторые из тестов выполняются очень долго (см. README) - для ускорения проверок эти тесты можно не выполнять
-#при запуске образа рекомендется использовать набор команд pytest -n 4 -m "not slow"
-#для образа с CMD ["pytest", "-m \"not slow\""]
-#возникает ошибка: ERROR: Wrong expression passed to '-m':  "not slow": at column 2: unexpected character """

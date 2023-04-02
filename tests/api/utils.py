@@ -1,12 +1,10 @@
-import random
-
 POSTS_AMAUNT = 100
 COMMENTS_AMAUNT = 500
 ALBUMS_AMAUNT = 100
 PHOTOS_AMAUNT = 5000
 TODOS_AMAUNT = 200
 USERS_AMAUNT = 10
-# jsonplaceholder_url = "https://jsonplaceholder.typicode.com/"
+
 RESOURCES_LIST = {
     "posts": "posts/",
     "comments": "comments/",

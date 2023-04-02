@@ -6,7 +6,7 @@ import allure
 
 
 @pytest.mark.regress
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Не успешный логин в админ панель")
 def test_incorrect_login(browser):

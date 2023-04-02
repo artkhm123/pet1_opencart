@@ -9,7 +9,7 @@ import allure
 
 
 @pytest.mark.regress
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Главная страница. Добавление продукта в компаратор с продуктовой тумбы")
 def test_main_page_elements(browser):

@@ -8,7 +8,7 @@ from tests.ui.utils import *
 
 @pytest.mark.slow
 @pytest.mark.regress
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Смена валюты на странице 'карточка продукта'")
 @pytest.mark.parametrize("product, prices", [("/iphone", IPHONE_PRICE), ("/macbook", MAC_PRICE)])

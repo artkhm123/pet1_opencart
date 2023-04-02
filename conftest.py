@@ -36,9 +36,11 @@ def pytest_addoption(parser):
     # parser.addoption("--executor", action="store", default="local")
     parser.addoption("--api_url", default="https://jsonplaceholder.typicode.com/")
 
+
 @pytest.fixture
 def jsonplaceholder_url(request):
     return request.config.getoption("--api_url")
+
 
 @pytest.fixture
 def browser(request):

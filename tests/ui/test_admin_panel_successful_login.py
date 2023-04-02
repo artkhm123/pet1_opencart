@@ -8,7 +8,7 @@ import allure
 
 
 @pytest.mark.smoke
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Успешный логин в админ панель")
 def test_incorrect_login(browser):

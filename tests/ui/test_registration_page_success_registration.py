@@ -16,7 +16,7 @@ PASSWORD = f"password{FIRSTNAME_NEW}"
 
 
 @pytest.mark.smoke
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Регистрация нового пользователя")
 def test_register_page(browser):

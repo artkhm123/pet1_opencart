@@ -17,7 +17,7 @@ PASSWORD = f"password{FIRSTNAME_NEW}"
 
 
 @pytest.mark.regress
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Проверка обязательности подтверждения Private policy при регистрации нового пользователя")
 def test_register_page(browser):
@@ -49,7 +49,8 @@ def test_register_page(browser):
         REGISTRATION_PAGE.input_password(PASSWORD)
         REGISTRATION_PAGE.confirm_password(PASSWORD)
 
-    with allure.step('3)Попробовать зарегестрироваться, кликнув по кнопке "Confirm" не подтвердив согласие Privat Policy'):
+    with allure.step(
+            '3)Попробовать зарегестрироваться, кликнув по кнопке "Confirm" не подтвердив согласие Privat Policy'):
         REGISTRATION_PAGE.confirm_registration()
 
     with allure.step('4) Проверить наличия Warning сообщения и неуспешной регистрации'):

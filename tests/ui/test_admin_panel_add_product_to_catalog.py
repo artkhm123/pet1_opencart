@@ -16,7 +16,7 @@ TEST_METADATA_TAG = f"Test metadata{random.randint(0, 10)}"
 
 @pytest.mark.smoke
 @pytest.mark.ui
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title('Добавление продукта')
 def test_add_and_delete_product(browser):

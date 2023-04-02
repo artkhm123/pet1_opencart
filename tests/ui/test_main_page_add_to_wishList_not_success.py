@@ -8,7 +8,7 @@ import allure
 
 
 @pytest.mark.regress
-@allure.epic ("Opencart UI")
+@allure.epic("Opencart UI")
 @allure.story("Тестовые сценарии")
 @allure.title("Главная страница. Нельзя добавить продукт с продуктовой тумбы в вишлист не залогинившись")
 def test_main_page_elements(browser):
